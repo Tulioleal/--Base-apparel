@@ -1,0 +1,24 @@
+//Colores
+
+$RojoPalido : hsl(0, 36%, 70%);
+$RojoSuave : hsl(0, 93%, 68%);
+$RojoOscuro : hsl(0, 6%, 24%);
+
+    //Gradientes
+
+    $Gradiente1 :linear-gradient(135deg, hsl(0, 80%, 86%) 0%, hsl(0, 74%, 74%) 100%);
+    $Gradiente2 : linear-gradient(135deg, hsl(0, 0%, 100%) 0%, hsl(0, 100%, 98%) 100%);
+
+//Fuente
+
+$FontSize : 16px;
+
+//Margin - Padding
+
+@mixin marginpadding {
+    padding: 0em;
+    margin: 0em;
+    
+}
+
+
